@@ -8,6 +8,7 @@
 //! - The device never computes zk-proofs; proving happens on the hot wallet.
 
 pub mod check;
+pub mod ffi;
 pub mod keys;
 pub mod sign;
 pub mod summary;
