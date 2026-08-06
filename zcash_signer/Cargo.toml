@@ -27,7 +27,7 @@ hex = "0.4"
 
 [dev-dependencies]
 hex = "0.4"
-pczt = { version = "0.9", features = ["signer", "orchard", "sapling", "transparent", "io-finalizer", "zcp-builder"] }
+pczt = { version = "0.9", features = ["signer", "orchard", "sapling", "transparent", "io-finalizer", "zcp-builder", "prover", "spend-finalizer", "tx-extractor"] }
 zcash_primitives = { version = "0.30", features = ["transparent-inputs"] }
 rand_core = { version = "0.6", features = ["getrandom"] }
 
